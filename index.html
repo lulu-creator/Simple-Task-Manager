@@ -9,8 +9,6 @@
 <body>
     <div class="container">
         <h1>Task Manager</h1>
-        
-        <!-- Add Task Form -->
         <form id="taskForm" class="task-form">
             <input 
                 type="text" 
@@ -20,17 +18,12 @@
             >
             <button type="submit">Add Task</button>
         </form>
-
-        <!-- Task Filters -->
         <div class="filters">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="active">Active</button>
             <button class="filter-btn" data-filter="completed">Completed</button>
         </div>
-
-        <!-- Task List -->
         <ul id="taskList" class="task-list">
-            <!-- Tasks will be added here dynamically -->
         </ul>
     </div>
     <script src="script.js"></script>
